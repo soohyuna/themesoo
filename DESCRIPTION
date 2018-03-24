@@ -4,7 +4,7 @@ Title: Changes ggplot theme into Soo's theme.
 Version: 0.1.0
 Author: Soo Hyun Ahn
 Maintainer: The package maintainer <soohyahn@gmail.com>
-Description: Creates ggplot with Alvenir font, clear white background and black border.
+Description: Creates ggplot with Avenir font, clear white background and black border.
     In facet_wrap, creates teal colour for the strip with centered font. 
 License: MIT
 Encoding: UTF-8
