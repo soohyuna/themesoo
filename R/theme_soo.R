@@ -16,7 +16,6 @@ theme_soo <- function () {
       legend.background = element_rect(fill="transparent", colour=NA),
       legend.key = element_rect(fill="transparent", colour=NA),
       strip.text = element_text(size=12, face = "bold"),
-      strip.background = element_rect(colour="black", fill="#7fcdbb"),
-      axis.text.x = element_text(angle = 45, hjust = 1)
+      strip.background = element_rect(colour="black", fill="#7fcdbb")
     )
 }
