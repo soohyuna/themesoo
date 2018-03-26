@@ -4,7 +4,7 @@
 \alias{theme_soo}
 \title{A theme for gpplot2}
 \usage{
-theme_soo()
+theme_soo(fill = "transparent")
 }
 \arguments{
 \item{object}{A ggplot2 object}
