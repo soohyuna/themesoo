@@ -13,6 +13,8 @@ theme_soo <- function (fill = "transparent", colour = "transparent") {
     theme(
       panel.background  = element_blank(),
       plot.background = element_rect(fill=fill, colour=colour),
+      plot.title = element_text(hjust = 0.5),
+      plot.subtitle = element_text(hjust = 0.5),
       legend.background = element_rect(fill=fill, colour=colour),
       legend.key = element_rect(fill=fill, colour=colour),
       strip.text = element_text(size=12, face = "bold"),
