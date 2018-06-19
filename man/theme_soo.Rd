@@ -4,10 +4,21 @@
 \alias{theme_soo}
 \title{A theme for gpplot2}
 \usage{
-theme_soo(fill = "transparent")
+theme_soo(base_family = "Avenir", title_size = 22, facet_fill = "#7fcdbb",
+  fill = "transparent", colour = "transparent", title_position = 0.5)
 }
 \arguments{
-\item{object}{A ggplot2 object}
+\item{base_family}{The font family to be used, defaults to Avenir}
+
+\item{title_size}{Title size, defaults to 22}
+
+\item{facet_fill}{Color of facet rectangle, defaults to "#7fcdbb"}
+
+\item{fill}{Background element rectangles, defaults to "transparent"}
+
+\item{colour}{Colour option for key, defaults to "transparent"}
+
+\item{title_position}{Title position, defaults to 0.5}
 }
 \value{
 A customized plot with Soo's theme!
