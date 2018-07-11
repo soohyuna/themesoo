@@ -9,5 +9,5 @@ Description: Creates ggplot with Avenir font, clear white background and black b
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Imports: tidyverse, ggplot2
+Imports: ggplot2
 RoxygenNote: 6.0.1
