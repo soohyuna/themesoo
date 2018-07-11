@@ -4,14 +4,16 @@
 \alias{theme_soo}
 \title{A theme for gpplot2}
 \usage{
-theme_soo(base_family = "Avenir", title_size = 22, text_size = 12,
+theme_soo(base_family = "Avenir", title_size = 22, facet_text_size = 12,
   facet_fill = "#7fcdbb", fill = "transparent", colour = "transparent",
-  title_position = 0.5)
+  title_position = 0.5, axis_title_size = 14, axis_tick_size = 12)
 }
 \arguments{
 \item{base_family}{The font family to be used, defaults to Avenir}
 
 \item{title_size}{Title size, defaults to 22}
+
+\item{facet_text_size}{Facet text size, defaults to 12}
 
 \item{facet_fill}{Color of facet rectangle, defaults to "#7fcdbb"}
 
@@ -20,6 +22,10 @@ theme_soo(base_family = "Avenir", title_size = 22, text_size = 12,
 \item{colour}{Colour option for key, defaults to "transparent"}
 
 \item{title_position}{Title position, defaults to 0.5}
+
+\item{axis_title_size}{Axis title size, defaults to 14}
+
+\item{axis_tick_size}{Size of ticks on axes, defaults to 12}
 }
 \value{
 A customized plot with Soo's theme!
