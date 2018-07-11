@@ -4,8 +4,9 @@
 \alias{theme_soo}
 \title{A theme for gpplot2}
 \usage{
-theme_soo(base_family = "Avenir", title_size = 22, facet_fill = "#7fcdbb",
-  fill = "transparent", colour = "transparent", title_position = 0.5)
+theme_soo(base_family = "Avenir", title_size = 22, text_size = 12,
+  facet_fill = "#7fcdbb", fill = "transparent", colour = "transparent",
+  title_position = 0.5)
 }
 \arguments{
 \item{base_family}{The font family to be used, defaults to Avenir}

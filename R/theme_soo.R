@@ -13,18 +13,18 @@
 #'
 #' @export
 
-theme_soo <- function (base_family = "Avenir", title_size = 22, facet_fill = "#7fcdbb",
+theme_soo <- function (base_family = "Avenir", title_size = 22, text_size = 12, facet_fill = "#7fcdbb",
                        fill = "transparent", colour = "transparent", title_position = 0.5) {
 
   theme_bw(base_size=12, base_family= base_family) %+replace%
     theme(
       panel.background  = element_blank(),
-      plot.background = element_rect(fill=fill, colour=colour),
+      plot.background = element_rect(fill = fill, colour = colour),
       plot.title = element_text(hjust = title_position, size = title_size),
       plot.subtitle = element_text(hjust = title_position),
-      legend.background = element_rect(fill=fill, colour=colour),
-      legend.key = element_rect(fill=fill, colour=colour),
-      strip.text = element_text(size=12, face = "bold"),
-      strip.background = element_rect(colour="black", fill= facet_fill)
+      legend.background = element_rect(fill = fill, colour = colour),
+      legend.key = element_rect(fill = fill, colour = colour),
+      strip.text = element_text(size = text_size, face = "bold"),
+      strip.background = element_rect(colour = "black", fill = facet_fill)
     )
 }
