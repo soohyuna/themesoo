@@ -30,7 +30,8 @@ theme_soo <- function (base_family = "Avenir", title_size = 22, facet_text_size 
       legend.key = element_rect(fill = fill, colour = colour),
       axis.text = element_text(size = axis_tick_size),
       axis.title = element_text(size = axis_title_size, face="bold"),
-      strip.text = element_text(size = facet_text_size, face = "bold"),
+      strip.text = element_text(size = facet_text_size, face = "bold",
+                                margin = margin(0.35,0,0.35,0, "cm")),
       strip.background = element_rect(colour = "black", fill = facet_fill)
     )
 }
