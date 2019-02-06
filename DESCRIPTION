@@ -2,7 +2,9 @@ Package: themesoo
 Type: Package
 Title: Changes ggplot theme into Soo's theme.
 Version: 0.1.0
-Author: Soo Hyun Ahn
+Authors@R: c(
+    person("Soo Hyun", "Ahn",email = "soohyahn@gmail.com", role = c("aut","cre")),
+    person("Sean", "Nguyen",email = "nguyens7@msu.edu", role = c("aut")))
 Maintainer: The package maintainer <soohyahn@gmail.com>
 Description: Creates ggplot with Avenir font, clear white background and black border.
     In facet_wrap, creates teal colour for the strip with centered font. 
