@@ -4,6 +4,7 @@
 #' @param title_size Title size, defaults to 22
 #' @param facet_text_size Facet text size, defaults to 12
 #' @param facet_fill Color of facet rectangle, defaults to "#7fcdbb"
+#' @param facet_height Height of facet box, defaults to 0.3
 #' @param fill Background element rectangles, defaults to "transparent"
 #' @param colour Colour option for key, defaults to "transparent"
 #' @param title_position Title position, defaults to 0.5
